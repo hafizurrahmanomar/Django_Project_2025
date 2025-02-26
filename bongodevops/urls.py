@@ -12,6 +12,8 @@ urlpatterns = [
     path('about/', include('about.urls')),
     path('contact/', include('contact.urls')),
     path('product/', include('product.urls')),
+    path('blog/', include('blog.urls')),
+    path('todo_app/', include('todo_app.urls')),
 ]
 
     

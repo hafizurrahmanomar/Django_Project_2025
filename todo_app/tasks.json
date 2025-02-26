@@ -1,0 +1,53 @@
+[
+    {
+        "model": "todo_app.task",
+        "pk": 1,
+        "fields": {
+            "title": "Soap",
+            "description": "Good soap",
+            "completed": true
+            
+        }
+    },
+    {
+        "model": "todo_app.task",
+        "pk": 2,
+        "fields": {
+            "title": "Shampoo",
+            "description": "Herbal shampoo",
+            "completed": false
+            
+        }
+    },
+    {
+        "model": "todo_app.task",
+        "pk": 3,
+        "fields": {
+            "title": "Buy Milk",
+            "description": "2 liters of milk",
+            "completed": true
+           
+        }
+    },
+    {
+        "model": "todo_app.task",
+        "pk": 4,
+        "fields": {
+            "title": "Book Flight",
+            "description": "Flight to New York",
+            "completed": false
+          
+        }
+    },
+    {
+        "model": "todo_app.task",
+        "pk": 5,
+        "fields": {
+            "title": "Dentist Appointment",
+            "description": "Routine check-up",
+            "completed": false
+        
+        }
+    }
+    
+]

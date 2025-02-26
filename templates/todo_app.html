@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    todo_app
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <h1>Welcome to ToDo APP Page</h1>
+    <h3>All Task</h3>
+   <ul>
+    {% for task in my_tasks %}
+        <li>{{ task.title }}</li>
+    {% endfor %}
+   </ul>
+     
+</div>
+{% endblock content %}

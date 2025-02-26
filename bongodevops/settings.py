@@ -30,6 +30,9 @@ INSTALLED_APPS = [
     'about',
     'contact',
     'product',
+    'blog',
+    'todo_app',
+    
     
 ]
 
